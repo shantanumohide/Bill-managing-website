@@ -57,7 +57,6 @@ input{
       font-size: 150%;
   }
   .due{
-      
       padding-left: 2px;
       border-style: solid ;
       border-color:white white white gray;
@@ -81,7 +80,7 @@ input{
     background-color :gray;
 }
 
-/* .switch > div {
+.switch > div {
     display: block;
     color: white;
     text-align: center;
@@ -90,13 +89,33 @@ input{
 }
 
 .Upcoming-bills{
+    position: absolute;
     display: none;
 }
 
-.Upcoming p:hover + .Upcoming-bills{
-    color: black;
+.Past-bills{
+    position: absolute;
+    display: none;
+}
+
+.Upcoming:hover .Upcoming-bills{
     display: block;
-}  */
+    background-color: white;
+} 
+.Upcoming:hover{
+    display: block;
+    background-color: black;
+} 
+
+.Past:hover .Past-bills{
+    display: block;
+    background-color:white;
+} 
+
+.Past:hover{
+    display: block;
+    background-color: black;
+} 
 
 
 .description{
